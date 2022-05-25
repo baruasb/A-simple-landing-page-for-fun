@@ -1,0 +1,89 @@
+body{
+    font-family: 'Signika Negative', sans-serif;
+}
+/* top blogs parts */
+section{
+    display: flex;
+    
+}
+.name{
+    color: blueviolet;
+}
+.top-section{
+    margin-top: 30px;
+}
+
+.top-blog a,.dream-blog a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(178, 17, 178);
+    padding: 10px 30px 14px;
+    border-radius: 10px;
+}
+
+.blog-image{
+    padding-right: 5%;
+}
+
+.blog-image img{
+    width: 100%;
+    padding-top: 20px;
+    
+}
+
+/* top blogs part endss */
+
+.dream-image{
+    padding-right: 5%;
+}
+.dream-image img{
+    width: 100%;
+    padding-top: 20px;
+
+}
+.mid-section{
+    align-items: center;
+}
+.mid-section{
+    margin-top: 50px;
+}
+
+/* experience sections starts */
+.development{
+    display: flex;
+    margin-top: 10%;
+    align-items: center;
+    background-color: lightgoldenrodyellow
+}
+
+.web-developer{
+    margin-right: 30px;
+}
+#web{
+    border: 1px solid lightslategray;
+}
+#full{
+    border: 1px solid lightslategray;
+}
+.web-developer{
+    box-shadow: 0px 10px 20px;
+}
+.full-stack-developer{
+    box-shadow: 0px 10px 20px;;
+}
+
+/* media query sections starts */
+
+@media (max-width:600px) {
+
+    .top-section{
+        flex-direction: column;
+    }
+
+    .mid-section{
+        flex-direction: column;
+    }
+
+
+    
+}
